@@ -1,10 +1,16 @@
 # pfsense-voucher-generator
 # tacio@multiti.com.br
 
+# Introdução
 Sistema de geração de Voucher para pfSense. Essse sistema é liberado sobre a licença MIT, e foi criado para simplificar a geração de vouchers para o pfSense sem a necessidade de outro software se não o próprio pfSense.
 
+# Instalação
 Para que esse script funcione você deverá copiar os 3 arquivos PHP para o servidor pfSense via SSH ou SFTP no diretório: /usr/local/www
 
+# Customização
+Para alterar o nome da sua empresa, abra o arquivo geravoucher.php e altere o HTML da linha onde está "Rede Wifi<br> MultiTI Consultoria e Serviços em Tecnologia", pelo nome da sua empresa ou pelo nome que desejar.
+
+# Utilização
 Após isso, logue no seu pfSense com seu usuário, vá até o menu: Services => Captive Portal => Selecione opção "Edit zone" do Portal que deseja gerar o voucher. 
 
 Navegue até a aba "Vouchers" e gere um voucher com o período de tempo desejado e por fim, baixe o arquivo CSV desse voucher.
@@ -17,4 +23,4 @@ Após clicar nesse link, você será redirecionado a página com os vouchers pre
 
 Espero que façam um bom uso desse software.
 
-Atenciosamente, Tácio Andrade. Consultor de TI na MultiTI.com.br.
+Att. Tácio Andrade, Consultor de TI na MultiTI.com.br
