@@ -133,7 +133,7 @@
 						</tr>
 							<tr style="background-color: #fff;">
 							<td style="color: #000; border: 1px #ccc solid;">
-							<?php echo str_replace(["\""," "], "", $voucher; ?> 
+							<?php echo str_replace(["\""," "], "", $voucher); ?> 
 							</td>
 						</tr>
 					</tbody>
