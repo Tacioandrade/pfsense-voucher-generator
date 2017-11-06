@@ -85,7 +85,7 @@
 		include_once($include);
 
 	if (!empty($_FILES['arquivo'])) {
-		$resultado = handleCSV($messages)
+		$resultado = handleCSV($messages);
 		$messages = $resultado['messages'];
 		$vouchers = $resultado['vouchers'];
 	}
@@ -133,7 +133,7 @@
 						</tr>
 							<tr style="background-color: #fff;">
 							<td style="color: #000; border: 1px #ccc solid;">
-							<?php echo str_replace(["\""," "], "", $voucher[$i+7]; ?> 
+							<?php echo str_replace(["\""," "], "", $voucher; ?> 
 							</td>
 						</tr>
 					</tbody>
